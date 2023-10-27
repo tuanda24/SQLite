@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+    <EditText
+        android:id="@+id/edt_department_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Department ID"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edt_department_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Department Name" />
+
+</LinearLayout>
+

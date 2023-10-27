@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add"
+        android:title="Add new"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update"
+        android:title="Update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_close"
+        android:title="Close app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="Search" />
+</menu>
